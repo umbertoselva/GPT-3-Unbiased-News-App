@@ -1,14 +1,14 @@
 # Unbiased News App
 
-A **Streamlit** app built with **OpenAI GPT-3** that rewrites news articles to make them informative and fact-focused by removing various kinds of bias (political, ideological, etc.), sensationalistic, fear-mongering language, hasty generalizations, anecdotal and unsupported claims, etc.
+A **Streamlit** app built with **OpenAI GPT-3** that rewrites news articles to make them neutral and fact-focused by removing various kinds of bias (political, ideological, etc.), sensationalistic and fear-mongering language, hasty generalizations, anecdotal and unsupported claims, etc.
 
 Beside a rewritten **unbiased version** of the input article, the app also outputs a **bias analysis** and a list of **logical fallacies**, if present in the input article.
 
-The app is available at: 
+The app is available at: https://umbertoselva-gpt-3-unbiased-news-app-app-u72c23.streamlit.app
 
 ### An example of a right-leaning article
 
-Consider the following article from Breitbart titled "Biden's countdown to end Title 42: nearly 400K migrants may arrive at southern border every month"  (https://www.breitbart.com/politics/2023/04/11/bidens-countdown-to-end-title-42-nearly-400k-migrants-may-arrive-at-southern-border-every-month).
+Consider the following Breitbart article titled ["Biden's countdown to end Title 42: nearly 400K migrants may arrive at southern border every month"](https://www.breitbart.com/politics/2023/04/11/bidens-countdown-to-end-title-42-nearly-400k-migrants-may-arrive-at-southern-border-every-month).
 
 The output was the following:
 
@@ -18,7 +18,7 @@ The output was the following:
 
 >The Biden administration is expected to end the authority in about a month, which they estimate could bring close to 400,000 border crossers and illegal aliens to the border every month. The DHS Office of Immigration Statistics projects that border encounters could average 11,000 to 13,000 per day after the lifting of the Title 42 public health order, absent additional policy changes. This figure does not include the tens of thousands, every month, that could evade Border Patrol agents and successfully cross the border into the US interior.
 
->National Border Patrol Council President Brandon Judd told Fox News this week that the only deterrent currently in place is Title 42, and that the number of people released into the US since Biden has been in office could double in the next two years. The administration’s expansive Catch and Release network, which includes a massive parole pipeline, could result in hundreds of thousands of migrants being released into American communities as a result of Title 42 ending.```
+>National Border Patrol Council President Brandon Judd told Fox News this week that the only deterrent currently in place is Title 42, and that the number of people released into the US since Biden has been in office could double in the next two years. The administration’s expansive Catch and Release network, which includes a massive parole pipeline, could result in hundreds of thousands of migrants being released into American communities as a result of Title 42 ending.
 
 >House Homeland Security Committee Chairman Mark Green (R-TN) and Senate Republicans like Bill Hagerty (R-TN) and Joni Ernst (R-IA) are backing a plan to convert Title 42 to fight the nation’s deadly fentanyl crisis. Administration officials have said up to half a million border crossers and illegal aliens could arrive at the border every month, and Rep. Andy Biggs (R-AZ) told Breitbart News in April 2022 that he expects 30,000 border crossers and illegal aliens every day at the border without Title 42. In Tijuana, Mexico, alone, Breitbart News reported last year that up to 6,000 foreign nationals were waiting to rush the border when Title 42 ends.
 
@@ -40,7 +40,7 @@ The output was the following:
 
 ### An example of a liberal/left-leaning article
 
-Consider the following article from the Guardian titled "Misogyny is a mighty force on the right – just look at the fate of Finland’s Sanna Marin" (https://www.theguardian.com/commentisfree/2023/apr/04/misogyny-finland-sanna-marin).
+Consider the following Guardian article titled ["Misogyny is a mighty force on the right – just look at the fate of Finland’s Sanna Marin"](https://www.theguardian.com/commentisfree/2023/apr/04/misogyny-finland-sanna-marin).
 
 The output was the following:
 
@@ -69,6 +69,4 @@ The output was the following:
 >3. Appeal to Emotion: The original article appeals to emotion by using language such as "witch-hunt" and "precipitous descent into authoritarian prospects".
 >4. Slippery Slope: The article implies that the NCP's victory will lead to an authoritarian government, without providing evidence to support this claim.
 >5. Appeal to Fear: The original article makes an appeal to fear by suggesting that the coalition between the NCP and the Finns party is "more dangerous than you could possibly imagine".
-
-
 
