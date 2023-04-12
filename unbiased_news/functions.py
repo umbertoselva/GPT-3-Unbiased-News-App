@@ -17,11 +17,11 @@ def unbiased_news(prompt):
     
     Task 2: Describe the bias of the original news article
     by using a numbered list containing up to 5 items 
-    each dedicated to one form of bias if present in the original news article,
+    each dedicated to one form of bias if present in the original news article
     (e.g. 1. Sensationalism: followed by a description;
     2. Opinionated language: followed by a description;
     3. Unbalanced perspective: followed by a description;
-    etc.)
+    etc.).
     
 
     Task 3: List and describe up to 5 logical fallacies 
@@ -45,15 +45,15 @@ def unbiased_news(prompt):
 
     [1] Unbiased version of the article:
 
-    Here there should be the rewritten article
+    Here there should be the rewritten article.
 
     [2] Bias analysis:
 
-    Here there should be the numbered list with the description of the bias in the original news article
+    Here there should be the numbered list with the description of the bias in the original news article.
 
     [3] Logical fallacies:
 
-    Here there should be numbered list with the logical fallacies found in the original news article
+    Here there should be numbered list with the logical fallacies found in the original news article.
 
     
     Original news article: 
